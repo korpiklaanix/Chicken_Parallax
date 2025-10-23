@@ -35,28 +35,28 @@ function ChickenParallax() {
 			</nav>
 			<div className="parallaxContainer">
 				<img
-					className="parallaxLayer"
+					className="parallaxLayer  layer-bottom"
 					src={fence}
 					alt=""
 					style={{ transform: `translateX(${offsetY * -0.2}px)` }}
 				/>
 				{/* <h1></h1> */}
-				<img className="parallaxLayer" src={grass} alt="" />
-				<img className="parallaxLayer" src={coop} alt="" />
+				<img className="parallaxLayer  layer-bottom" src={grass} alt="" />
+				<img className="parallaxLayer layer-center" src={coop} alt="" />
 				<img
-					className="parallaxLayer"
+					className="parallaxLayer chicken"
 					src={chicken}
 					alt=""
 					style={{ transform: `translateY(${offsetY * 0.4}px)` }}
 				/>
 				<img
-					className="parallaxLayer"
+					className="parallaxLayer layer-left"
 					src={leafL}
 					alt=""
 					style={{ transform: `translateX(${offsetY * -0.2}px)` }}
 				/>
 				<img
-					className="parallaxLayer"
+					className="parallaxLayer layer-right"
 					src={leafR}
 					alt=""
 					style={{ transform: `translateX(${offsetY * 0.2}px)` }}

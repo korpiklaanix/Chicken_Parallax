@@ -28,9 +28,9 @@ header {
 .parallaxContainer {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/9;
-  min-height: 100vh;
+  height: clamp(70vh, 100svh, 120vh);
   overflow: hidden;
+  background: linear-gradient(#bb7431, #a9dff7);
 }
 
 .parallaxLayer {
