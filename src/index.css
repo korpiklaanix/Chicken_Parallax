@@ -1,18 +1,22 @@
 :root {
-
-  --sunset: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  --mainColor: #8E61FF;
-  --lightShades:#F5F4EC;
-  --darkShades:#33427E;
-  --lightAccent:#A1AFCC;
-  --darkAccent:#787AA1;
+  --sunset: linear-gradient(
+    180deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  --mainColor: #8e61ff;
+  --lightShades: #f5f4ec;
+  --darkShades: #33427e;
+  --lightAccent: #a1afcc;
+  --darkAccent: #787aa1;
 }
-
 
 body {
   background: var(--mainColor);
-  min-height: 200vh;
+  min-height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #contentContainer {
@@ -24,7 +28,7 @@ body {
   justify-content: center;
   gap: 10px;
 
-  section{
+  section {
     width: 80%;
     padding: 10px;
     color: var(--lightShades);
