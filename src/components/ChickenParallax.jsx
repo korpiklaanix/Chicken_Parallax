@@ -24,7 +24,7 @@ function ChickenParallax() {
 	return (
 		// <>
 		<header>
-			<nav>
+			<nav style={{ transform: `translateY(${offsetY * 1}px)` }}>
 				<h2>Logo</h2>
 				<ul>
 					<li>Home</li>
@@ -40,7 +40,12 @@ function ChickenParallax() {
 					alt=""
 					style={{ transform: `translateX(${offsetY * -0.2}px)` }}
 				/>
-				{/* <h1></h1> */}
+				<h1
+					className="parallaxLayer parah2"
+					style={{ transform: `translateY(${offsetY * 1}px)` }}
+				>
+					Chicken Parallax{" "}
+				</h1>
 				<img className="parallaxLayer  layer-bottom" src={grass} alt="" />
 				<img className="parallaxLayer layer-center" src={coop} alt="" />
 				<img
